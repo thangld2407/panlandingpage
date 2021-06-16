@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background-header {
+    background-image: url("/assets/img/1.png");
+    background-size: contain;
+    background-position: left;
+
+}
+.slider-section {
+    background-image: url("/assets/img/slider\ \(1\).png");
+    background-size: contain;
+    background-position: left;
+
+}
+html,body {
+    font-family: DMSans;
+}
+.top-img {
+    width: 63px;
+    height: 32px;
+    padding-top: 36px;
+    padding-left: 135px;
+    line-height: 24px;
+}
+.header-icon-top {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+}
+.icon-list {
+    width: 24px;
+    height: 24px;
+    padding-left: 40px;
+}
+.section-header {
+    padding-left: 135px;
+    padding-top: 108px;
+}
+.section-header-title {
+    line-height: 96px;
+    font-size: 80px;
+    letter-spacing: -2.4px;
+    font-weight: bold;
+    font-family: 'DM Sans', sans-serif;
+}
+.section-header-des {
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: left;
+    width: 470px;
+    height: 56px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.section-header-btn-buy {
+    background-color: #fff;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    width: 294px;
+    height: 48px;
+    text-align: center;
+}
+.btn-buy-text {
+    font-size: 16px;
+    line-height: 1.6px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.section-header-quantiki {
+    width: 294px;
+    height: 18px;
+    margin-top: 40px;
+    line-height: 1.5;
+}
+.section-header-quantiki img {
+    width: 60px;
+    height: 18px;
+    object-fit: contain;
+}
+.quantiki-review-count {
+    font-size: 14px;
+    line-height: 1.29;   
+    text-align: left; 
+}
+.section-header-days {
+    padding-bottom: 140px;
+}
+.icon-dollar {
+    font-size: 14px;
+    color: #333;
+}
+.days-money-back {
+    font-size: 14px;
+    padding-right: 8px;
+}
+
+.header-eclipse-money {
+    padding-right: 135px;
+    padding-top: 108px;
+}
+.eclipses {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 212, 191, 1);
+    background-color: rgba(255, 212, 191, 1);
+    border-radius: 50px;
+}
+.eclips-opacity {
+    background-color: rgb(255 255 255);
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgb(255 255 255);
+    border-radius: 30px;
+    text-align: center;
+    margin: 9px 9.5px;
+    padding: 18px 16px;
+}
+.eclips-opacity-text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+.slider-section-config {
+    padding-bottom: 80px;
+}
+.slider-header {
+    padding-top: 80px;
+    padding-left: 140px;
+}
+.slider-header-content {
+    font-size: 40px;
+    font-weight: bold;
+}
+.slide-content {
+    padding-left: 168px;
+    
+}
+.slide-content-img {
+    margin-top: 42px;
+}
+.slide-content-img > img  {
+  width: 429px;
+  height: 428px;
+}
+.icon-quote {
+    padding-top: 323px;
+}
+.icon-quote-display {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+}
+.quote-content {
+    margin-top: 50px;
+}
+.quote-content-text {
+    width: 470px;
+    height: 168px;
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 28px;
+    text-align: left;
+    line-height: 1.56;
+    font-family: DM Sans;
+}
+.content-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+.content-count-star {
+    padding-left: 120px;
+    margin-top: -46px;
+}
+.sub-content-authors {
+    color: #9a9a9a;
+    font-size: 16px;
+}
+.btn-slide {
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+    letter-spacing: 8px;
+}
+.btn-color {
+    color: #1a1a1a;
+}
+.color {
+    color: red;
+    opacity: 0.7;
+}
