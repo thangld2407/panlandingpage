@@ -390,15 +390,18 @@ div.swiper-pagination {
     font-size: 16px;
 }
 .count-product {
-    text-align: center;
-    display: inline-block;
+    padding-top: 20px;
 }
-#btn-count-product {
+.btn-count {
+    padding-left: 110px;
+}
+.btn-count-product {
     border: none;
     background-color: #fff;
     font-size: 24px;
 }
-.number-product {
-    border: none;
+
+#count-number {
     text-align: center;
+    border: none;
 }
