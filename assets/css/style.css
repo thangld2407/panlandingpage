@@ -316,8 +316,8 @@ div.swiper-pagination {
     padding-left: 135px;
 }
 .product-img img {
-    width: 570px;
-    height: 768px;
+    width: 470px;
+    height: 668px;
 }
 .product-des {
     /* font-family: "DMS SANS-Regular"; */
@@ -366,4 +366,39 @@ div.swiper-pagination {
 .option-color-icon {
     font-size: 32px;
     margin-top: -10px;
+}
+
+.product-size {
+    font-size: 19px;
+    color: #9a9a9a;
+    line-height: 60px;
+    font-family: "DMS SANS-Regular";
+}
+.product-sizechart {
+    padding-left: 390px;
+    margin-top: -75px;
+}
+.size-selection {
+    padding-top: 30px;
+    opacity: 0.5;
+    margin-top: -45px;
+}
+#select-btn {
+    width: 470px;
+    height: 59px;
+    opacity: 0.9;
+    font-size: 16px;
+}
+.count-product {
+    text-align: center;
+    display: inline-block;
+}
+#btn-count-product {
+    border: none;
+    background-color: #fff;
+    font-size: 24px;
+}
+.number-product {
+    border: none;
+    text-align: center;
 }
