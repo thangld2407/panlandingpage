@@ -314,6 +314,7 @@ div.swiper-pagination {
 }
 .product-list {
     padding-left: 135px;
+    padding-bottom: 100px;
 }
 .product-img img {
     width: 470px;
@@ -399,9 +400,45 @@ div.swiper-pagination {
     border: none;
     background-color: #fff;
     font-size: 24px;
+    opacity: 0.6;
 }
 
 #count-number {
     text-align: center;
     border: none;
+    opacity: 0.8;
+}
+.buy-it-now {
+    padding-top: 20px;
+}
+.btn-buy-now {
+    font-size: 16px;
+    width: 467px;
+    height: 48px;
+    background-color: #ffbe9e;
+}
+.method-pay {
+    width: 467px;
+    height: 48px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sub-payment {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 20px;
+    color: #5a5a5a;
+    width: 469px;
+}
+.icon-payment-star {
+    font-size: 12px;
+    color: #1a1a1a;
+}
+.reviewer-ico-star {
+    padding-top: 40px;
+    margin-top: -61px;
+    padding-left: 100px;
+    color: #5a5a5a;
+    font-size: 16px;
+    font-weight: 500;
 }
