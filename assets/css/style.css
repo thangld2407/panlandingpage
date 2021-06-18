@@ -512,13 +512,13 @@ div.swiper-pagination {
     text-align: center;
 }
 .question-about-us {
-    padding: 10px 10px 10px 10px;
+    padding: 15px 45px 10px 10px;
 }
 .question-collapsible {
     background-color: #ffffff;
     color: #000;
     cursor: pointer;
-    padding: 18px;
+    padding: 40px;
     width: 100%;
     border: 1px solid #cfcfcf;
     text-align: left;
@@ -535,4 +535,76 @@ div.swiper-pagination {
     overflow: hidden;
     background-color: #5d8bb3;
     color: #ffffff;
+}
+.section-follow {
+    padding-left: 144px;
+    padding-right: 124px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.food-review {
+    width: 270px;
+    height: 270px;
+}
+.food-review-follow {
+    border: 12px solid rgba(93, 139, 179, 0.2);
+    width: 270px;
+    height: 270px;
+}
+.food-review-follow > p {
+    padding-top: 68px;
+    padding-bottom: 68px;
+    font-size: 40px;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    text-align: center;
+}
+.food-review > img {
+    width: 270px;
+    height: 270px;
+}
+
+.about-customer  {
+    text-align: center;
+}
+.customer-review {
+    width: 600px;
+    text-align: center;
+    line-height: 1.56;
+    font-size: 16px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.name-customer {
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+.our-customer {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: -15px;
+    padding-bottom: 70px;
+}
+.swiperCustomer > .swiper-button-next {
+    background-image: url("/assets/img/swiperBtn/664866.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+.swiperCustomer > .swiper-button-prev {
+    background-image: url("/assets/img/swiperBtn/left-arrow.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+.swiperCustomer > .swiper-button-next::after {
+    display: none;
+}
+.swiperCustomer > .swiper-button-prev::after {
+    display: none;
+}
+
+.section-partner {
+    padding-left: 135px;
 }

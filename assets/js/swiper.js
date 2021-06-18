@@ -21,3 +21,15 @@ var swiperProduct = new Swiper(a, {
         el: ".swiper-pagination",
     },
 })
+
+let customer = document.querySelector(".swiperCustomer")
+var swiperCustomer = new Swiper(customer, {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+        el: ".swiper-pagination"
+    },
+    mousewheel: false,
+})
