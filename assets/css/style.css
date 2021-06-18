@@ -503,3 +503,36 @@ div.swiper-pagination {
 .gift-buy {
     padding-left: 135px;
 }
+.section-ask {
+    padding-top: 100px;
+}
+.any-question {
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+}
+.question-about-us {
+    padding: 10px 10px 10px 10px;
+}
+.question-collapsible {
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #cfcfcf;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    
+}
+.active, .question-collapsible:hover {
+    background-color: #5d8bb3;
+}
+.content-question {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #5d8bb3;
+    color: #ffffff;
+}
