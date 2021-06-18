@@ -526,6 +526,10 @@ div.swiper-pagination {
     font-size: 15px;
     
 }
+.active {
+    color: #ffffff;
+    border: none;
+}
 .active, .question-collapsible:hover {
     background-color: #5d8bb3;
 }
@@ -606,5 +610,127 @@ div.swiper-pagination {
 }
 
 .section-partner {
+    padding-top: 20px;
     padding-left: 135px;
+    background-color: #eff3f7;
+    padding-bottom: 20px;
+}
+.header-partner {
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0;
+    color: #1a1a1a;
+    padding-top: 145px;
+}
+.partner-review {
+    font-size: 16px;
+    text-align: left;
+    width: 500px;
+    height: 96px;
+    color: #5a5a5a;
+}
+.img-fedex, .img-coca,.img-google, 
+.img-amazone
+{
+    padding-top: 20px;
+}
+.img-fedex {
+    width: 300px;
+}
+.img-fedex > img {
+    width: 300px;
+    height: 140px;
+}
+.img-coca > img {
+    height: 140px;
+}
+.img-coca, .img-google > img {
+    width: 140px;
+    height: 140px;
+}
+.img-amazone > img {
+    height: 140px;
+    width: 300px;
+}
+.img-amazone {
+    padding-right: 104px;
+}
+
+.img-ebay, .img-mcdoland, .img-deli {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.img-ebay > img, .img-mcdoland > img, .img-deli > img {
+    width: 140px;
+    height: 140px;
+}
+.img-ebay {
+
+}
+.img-mcdoland {
+    padding-right: 104px;
+    margin-left: -5px;
+}
+.section-footer {
+    padding: 0 12px;
+}
+.section-benefit {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.benefit-bor {
+    padding: 40px;
+    border: 1px solid #cfcfcf;
+    padding: 80px;
+}
+.img-easy-use > img {
+    width: 150px;
+    height: 150px;
+}
+.benefit-text {
+    color: #5a5a5a;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer-end {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+.footer-img > img {
+    width: 64px;
+    height: 33px;
+}
+.sub-footer-img {
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 28px;
+    width: 460px;
+    height: 46px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer-buy {
+    padding-top: 40px;
+    padding-bottom: 150px;
+}
+.footer-buy-discount {
+    width: 290px;
+    height: 38px;
+}
+.footer-social {
+    float: right;
+}
+.link-social {
+    padding: 0 20px;
+}
+.sub-footer {
+    display: inline-block;
+}
+.footer-service {
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+}
+.policy {
+    padding-left: 125px;
 }
