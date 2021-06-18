@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'DM Sans', sans-serif !important;
+}
+
 .col-2 {
     padding: 0;
 }
@@ -514,6 +521,9 @@ div.swiper-pagination {
 .question-about-us {
     padding: 15px 45px 10px 10px;
 }
+.question-about-us button i:first-child {
+    display: none;
+}
 .question-collapsible {
     background-color: #ffffff;
     color: #000;
@@ -532,6 +542,7 @@ div.swiper-pagination {
 }
 .active, .question-collapsible:hover {
     background-color: #5d8bb3;
+    color: #ffffff;
 }
 .content-question {
     padding: 0 18px;
@@ -718,19 +729,57 @@ div.swiper-pagination {
     height: 38px;
 }
 .footer-social {
-    float: right;
+    width: 100%;
+    overflow: hidden;
 }
+
+.ico-footer-social  i {
+    text-align: right;
+}
+
+.ico-footer-social a:first-child i {
+    color: #4267B2
+}
+
+.ico-footer-social a:nth-child(2) i {
+    color: #1DA1F2;
+}
+
+.ico-footer-social a:nth-child(3) i {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .link-social {
     padding: 0 20px;
 }
 .sub-footer {
     display: inline-block;
 }
+
 .footer-service {
-    float: left;
-    text-align: center;
-    padding-top: 50px;
+    display: inline-flex;
 }
-.policy {
-    padding-left: 125px;
+
+.footer-service p {
+    text-align: right;
+}
+
+.footer-service p:nth-last-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.col-right {
+    text-align: right;
+}
+
+.col-right div {
+    margin-bottom: 15px;
+}
+
+.footer-copy-right p {
+    color: #9a9a9a;
 }
