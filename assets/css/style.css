@@ -20,7 +20,6 @@
     background-position: left;
 
 }
-
 .top-img {
     width: 63px;
     height: 32px;
@@ -441,4 +440,66 @@ div.swiper-pagination {
     color: #5a5a5a;
     font-size: 16px;
     font-weight: 500;
+}
+
+.about-content {
+    padding-left: 135px; 
+    padding-right: 135px;
+}
+.text-about-step > .about-step {
+    font-size: 14px;
+    line-height: 24px;
+    color: #5a5a5a;
+    width: 225px;
+    height: 50px;
+}
+.text-about-step > h3 {
+    font-size: 22px;
+    line-height: 32px;
+    color: #5d8bb3;
+}
+.section-about {
+    background-color: rgba(93, 139, 179, 0.1);
+    padding-bottom: 40px;
+}
+.arrow-step {
+    text-align: center;
+    padding-top: 48px;
+    width: 80px;
+    height: 16px;
+}
+.arrow-step-up {
+    padding-top: 62px;
+}
+.text-about-step > .about-step-number {
+    border: 1px solid #5d8bb3;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border-style: dashed;
+    padding-top: 12px;
+}
+
+.section-gift {
+    background-image: url("/assets/img/Rectangle\ 22.png");
+    height: 100%;
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 104px;
+}
+.gift-header {
+    font-size: 64px;
+    width: 398px;
+    height: 160px;
+    letter-spacing: -1.9;
+    color: #ffffff;
+}
+.gift-des {
+    font-size: 24px;
+    line-height: 32px;
+    color: #ffffff;
+}
+.gift-buy {
+    padding-left: 135px;
 }

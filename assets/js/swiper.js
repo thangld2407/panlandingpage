@@ -1,3 +1,4 @@
+
 var swiper = new Swiper(".mySwiper", {
     navigation: {
         nextEl: ".swiper-button-next",
@@ -8,3 +9,15 @@ var swiper = new Swiper(".mySwiper", {
     },
     mousewheel: false,
 });
+
+
+let a = document.querySelector(".swiperProduct")
+
+
+var swiperProduct = new Swiper(a, {
+    direction: "vertical",
+    sliderPerview: 1,
+    pagination: {
+        el: ".swiper-pagination",
+    },
+})
